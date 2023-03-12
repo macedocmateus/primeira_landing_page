@@ -1,0 +1,128 @@
+body{
+    
+    font-family: arial,sans-serif;
+    background-color: #ccc;
+    margin: 0px;
+}
+
+.hero{
+    background-image: url("imagens/bg-3.jpg");
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.hero nav li{
+    display:inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin: 20px 15px 20px 1px;
+    
+}
+
+.hero nav a{
+   background-color: rgba(0, 0, 0, 0.5);
+   display:inline-block;
+   padding:10px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   letter-spacing: 2px;
+   
+
+}
+
+.hero nav a:hover{
+    background-color: black;
+}
+
+.hero nav ul{
+    text-align: right;
+    
+}
+
+
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.content-section h2 {
+    background-color: rgb(226, 226, 226);
+    padding: 15px 5px;
+    border-bottom: solid 2px rgb(124, 124, 124);
+    
+    
+    
+   
+}
+
+.rodape{
+    height:120px;
+    font-size:14px;
+    text-align: center;
+    color: white;
+    background-color: rgb(99, 99, 99);
+    line-height:120px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+.card{
+    width: 32%;
+    box-sizing: border-box;
+    float: left;
+    
+    
+    
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
